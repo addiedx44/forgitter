@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['addie@v0gel.io']
   spec.summary       = %q{Forgitter is a .gitignore generator.}
   spec.description   = %q{Forgitter is a .gitignore generator. It is based on the ignorefiles found at https://github.com/github/gitignore.}
-  spec.homepage      = ''
+  spec.homepage      = 'https://github.com/addiedx44/forgitter'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
