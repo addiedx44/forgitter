@@ -12,6 +12,7 @@ Gem::Specification.new do |spec|
   spec.description   = %q{Forgitter is a .gitignore generator. It is based on the ignorefiles found at https://github.com/github/gitignore.}
   spec.homepage      = 'https://github.com/addiedx44/forgitter'
   spec.license       = 'MIT'
+  spec.metadata      = { 'source_code_uri' => 'https://github.com/addiedx44/forgitter' }
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
