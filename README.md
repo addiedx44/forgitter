@@ -44,12 +44,10 @@ To see a list of ignorefiles that match specific tags, run:
 
     forgitter -l TAG1 [TAG2 ...]
 
->     $ forgitter -l rails
->     cloudspace rails chefcookbook	cloudspace/rails/ChefCookbook.gitignore
->     cloudspace rails linux       	cloudspace/rails/Linux.gitignore
->     cloudspace rails rails       	cloudspace/rails/Rails.gitignore
->     cloudspace rails ruby        	cloudspace/rails/Ruby.gitignore
->     github rails                 	github/Rails.gitignore
+>     $ forgitter -l vagrant
+>     custom vagrant extras 	custom/vagrant/Extras.gitignore
+>     custom vagrant vagrant	custom/vagrant/Vagrant.gitignore
+>     github global vagrant 	github/Global/Vagrant.gitignore
 
 Running `forgitter -l` without arguments will list all available
 ignorefiles.
@@ -65,7 +63,7 @@ submodule. After cloning this repository, run the following to retrieve the
 \*.gitignore files placed directly under `data/` will be ignored due to tag
 ambiguity.
 
-1. Fork it ( http://github.com/cloudspace/forgitter/fork )
+1. Fork it ( http://github.com/addiedx44/forgitter/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
